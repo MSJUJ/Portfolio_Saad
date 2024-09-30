@@ -93,4 +93,5 @@ function populatePortfolio() {
  document.querySelector('.main-footer h3:nth-child(3)').textContent = `Phone: ${portfolioData.contactInfo.phone}`;
  document.querySelector('.main-footer h3:nth-child(4)').textContent = `Address: ${portfolioData.contactInfo.address}`;
 }
-}
+// Call the function to populate the data
+populatePortfolio();
