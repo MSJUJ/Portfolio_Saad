@@ -17,20 +17,26 @@ socialLinks: {  github: "https://github.com/MSJUJ",
 services: [
   {
       title: "Web Developer",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, 
-                    voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque 
-                    tempore excepturi incidunt nemo nam veniam cupiditate!`
+      description: 'I am currently give you service of HTML, CSS, Javascript, React'
   },
   {
       title: "Machine Learning",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, 
-                    voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque 
-                    tempore excepturi incidunt nemo nam veniam cupiditate!`
+      description: `I will Learn Machine Learning in next semester and I love to do model training`
   },
   {
       title: "Blockchain Expert",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, 
-                    voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque 
-                    tempore excepturi incidunt nemo nam veniam cupiditate!`
+      description: `I have a lot of knowlegde of Blockchain and I am very much interested in it and Current I am learning solidity language for smart contracts`
+  }
+],
+projects: [
+  {
+      image: "Project (1).jpg",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      buttonText: "About.."
+  },
+  {
+      image: "Project (3).jpg",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      buttonText: "About.."
   }
 ],
