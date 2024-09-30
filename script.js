@@ -40,3 +40,13 @@ projects: [
       buttonText: "About.."
   }
 ],
+awards: [
+  {
+      image: "hacker_rank.png",
+      title: "HackerRank"
+  },
+  {
+      image: "code_rush.png",
+      title: "CodeRush"
+  }
+],
