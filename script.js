@@ -50,3 +50,9 @@ awards: [
       title: "CodeRush"
   }
 ],
+contactInfo: {
+  email: "bscs22060@itu.edu.pk",
+  phone: "+92 3085829927",
+  address: "Multan"
+}
+};
