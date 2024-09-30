@@ -56,3 +56,9 @@ contactInfo: {
   address: "Multan"
 }
 };
+function populatePortfolio() {
+  // Populate personal info
+  document.querySelector('.home-content h1').textContent = portfolioData.personalInfo.name;
+  document.querySelector('.home-content h2 span').textContent = portfolioData.personalInfo.role;
+  document.querySelector('.home-content h3').textContent = portfolioData.personalInfo.passion;
+  document.querySelector('.home-content p').textContent = portfolioData.personalInfo.description;
