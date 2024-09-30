@@ -62,3 +62,10 @@ function populatePortfolio() {
   document.querySelector('.home-content h2 span').textContent = portfolioData.personalInfo.role;
   document.querySelector('.home-content h3').textContent = portfolioData.personalInfo.passion;
   document.querySelector('.home-content p').textContent = portfolioData.personalInfo.description;
+   // Social media links
+   document.querySelector('.social-media li:nth-child(1) a').href = portfolioData.personalInfo.socialLinks.github;
+   document.querySelector('.social-media li:nth-child(2) a').href = portfolioData.personalInfo.socialLinks.instagram;
+   document.querySelector('.social-media li:nth-child(3) a').href = portfolioData.personalInfo.socialLinks.linkedin;
+   document.querySelector('.social-media li:nth-child(4) a').href = portfolioData.personalInfo.socialLinks.twitter;
+   
+}
