@@ -67,5 +67,10 @@ function populatePortfolio() {
    document.querySelector('.social-media li:nth-child(2) a').href = portfolioData.personalInfo.socialLinks.instagram;
    document.querySelector('.social-media li:nth-child(3) a').href = portfolioData.personalInfo.socialLinks.linkedin;
    document.querySelector('.social-media li:nth-child(4) a').href = portfolioData.personalInfo.socialLinks.twitter;
-   
+   // Populate services
+   const serviceCards = document.querySelectorAll('.service .card');
+   portfolioData.services.forEach((service, index) => {
+       serviceCards[index].querySelector('h2').textContent = service.title;
+       serviceCards[index].querySelector('p').textContent = service.description;
+   });
 }
