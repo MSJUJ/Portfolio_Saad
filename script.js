@@ -88,5 +88,9 @@ function populatePortfolio() {
         awardCards[index].querySelector('img').src = award.image;
         awardCards[index].querySelector('h2').textContent = award.title;
     });
-
+ // Populate contact information
+ document.querySelector('.main-footer h3:nth-child(2)').textContent = `Email: ${portfolioData.contactInfo.email}`;
+ document.querySelector('.main-footer h3:nth-child(3)').textContent = `Phone: ${portfolioData.contactInfo.phone}`;
+ document.querySelector('.main-footer h3:nth-child(4)').textContent = `Address: ${portfolioData.contactInfo.address}`;
+}
 }
