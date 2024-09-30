@@ -82,4 +82,11 @@ function populatePortfolio() {
            techList[techIndex].textContent = tech;
        });
    });
+    // Populate awards
+    const awardCards = document.querySelectorAll('.main-project .project');
+    portfolioData.awards.forEach((award, index) => {
+        awardCards[index].querySelector('img').src = award.image;
+        awardCards[index].querySelector('h2').textContent = award.title;
+    });
+
 }
