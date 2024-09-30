@@ -73,4 +73,13 @@ function populatePortfolio() {
        serviceCards[index].querySelector('h2').textContent = service.title;
        serviceCards[index].querySelector('p').textContent = service.description;
    });
+   // Populate projects
+   const projectCards = document.querySelectorAll('.main-project .project');
+   portfolioData.projects.forEach((project, index) => {
+       projectCards[index].querySelector('img').src = project.image;
+       const techList = projectCards[index].querySelectorAll('.sanjay h2');
+       project.technologies.forEach((tech, techIndex) => {
+           techList[techIndex].textContent = tech;
+       });
+   });
 }
