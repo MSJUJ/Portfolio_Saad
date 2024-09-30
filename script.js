@@ -14,3 +14,23 @@ socialLinks: {  github: "https://github.com/MSJUJ",
   twitter: "#"
 }
 },
+services: [
+  {
+      title: "Web Developer",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, 
+                    voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque 
+                    tempore excepturi incidunt nemo nam veniam cupiditate!`
+  },
+  {
+      title: "Machine Learning",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, 
+                    voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque 
+                    tempore excepturi incidunt nemo nam veniam cupiditate!`
+  },
+  {
+      title: "Blockchain Expert",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, 
+                    voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque 
+                    tempore excepturi incidunt nemo nam veniam cupiditate!`
+  }
+],
