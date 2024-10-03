@@ -22,40 +22,23 @@
         <div class="hamburger">
             <i class="fa fa-bars"></i>
         </div>
-       
     </div>
-    
-    <!-- Home -->
+
+    <!-- Home Section -->
     <div class="home">
         <div class="home-content">
-            <h3>Hi,It's Me.</h3>
-            <h1>Muhammad Saad</h1>
-            <h2>And I'm <span class="loop"></span></h2>
-            <h3>Passion: Artificial Intelligence</h3>
-            <p>
-                I am a student currently studying at ITU University, where my
-                passion for programming and problem-solving has led me to focus
-                on honing my skills in C++. I thoroughly enjoy the process of using
-                programming languages to solve complex problems and find
-                innovative solutions.
-                To further enhance my abilities, I actively participate in online
-                coding platforms like HackerRank, where I engage in various coding
-                challenges and contests. This allows me to tackle diverse problem
-                sets, improve my coding efficiency, and broaden my understanding
-                of different algorithms and data structures.
-                Looking ahead, I am particularly interested in the field of Artificial
-                Intelligence (AI). 
-                </p>            <div class="social-media">
-                    <li><a href="https://github.com/MSJUJ" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/muhammad-saad-5315a6266/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <h3>Hi, It's Me.</h3>
+            <h1 id="name">Loading...</h1>
+            <h2>And I'm <span class="loop" id="role">Loading...</span></h2>
+            <h3>Passion: <span id="passion">Loading...</span></h3>
+            <p id="aboutMeText">Loading...</p>
+            <div class="social-media" id="socialMediaLinks">
+                <!-- Social media links will be populated here -->
             </div>
             <div class="button">
                 <a href="file:///C:/Users/PMYLS/Downloads/Profile.pdf" target="_blank">
                     <button class="btn">More About Me</button>
                 </a>
-                
             </div>
         </div>
         <div>
@@ -67,78 +50,51 @@
         </div>
     </div>
 
-<!-- About Section -->
-
-   <div class="about" id="about">
-    <div class="image">
-        <img src="portfolio-saad.jpeg" alt=""/>
-    </div>
-    <div class="about-content">
-        <h1>Muhammad Saad</h1>
-        <div class="role">
-           
-            
-            <h2>Full Stack Developer</h2>
+    <!-- About Section -->
+    <div class="about" id="about">
+        <div class="image">
+            <img src="portfolio-saad.jpeg" alt=""/>
         </div>
-        <h3>Passion: Artificial Intelligence</h3>
-        <p>
-            I am a student currently studying at ITU University, where my
-            passion for programming and problem-solving has led me to focus
-            on honing my skills in C++. I thoroughly enjoy the process of using
-            programming languages to solve complex problems and find
-            innovative solutions.
-            To further enhance my abilities, I actively participate in online
-            coding platforms like HackerRank, where I engage in various coding
-            challenges and contests. This allows me to tackle diverse problem
-            sets, improve my coding efficiency, and broaden my understanding
-            of different algorithms and data structures.
-            Looking ahead, I am particularly interested in the field of Artificial
-            Intelligence (AI). 
-            </p>
-        <div class="social-media">
-                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-        </div>
-        <div class="button">
-            <button class="A-btn">Read More.</button>
+        <div class="about-content">
+            <h1 id="aboutName">Loading...</h1>
+            <div class="role">
+                <h2 id="aboutRole">Loading...</h2>
+            </div>
+            <h3>Passion: <span id="aboutPassion">Loading...</span></h3>
+            <p id="aboutMeContent">Loading...</p>
+            <div class="social-media" id="aboutSocialMediaLinks">
+                <!-- Social media links will be populated here -->
+            </div>
+            <div class="button">
+                <button class="A-btn">Read More</button>
+            </div>
         </div>
     </div>
-   </div>
 
-
-   <!-- Service Section -->
-
+    <!-- Service Section -->
     <div class="service" id="service">
-        <h1>Service </h1>
+        <h1>Services</h1>
         <div class="main-card">
             <div class="card">
                 <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
                 <h2>Web Developer</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque tempore excepturi incidunt nemo nam veniam cupiditate!
-                </p>
+                <p>I build responsive and functional websites using HTML, CSS, and JavaScript.</p>
                 <div class="button">
                     <button class="S-btn">Read...</button>
                 </div>
             </div>
             <div class="card">
-                <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
                 <h2>Machine Learning</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque tempore excepturi incidunt nemo nam veniam cupiditate!
-                </p>
+                <p>I apply Machine Learning techniques for data analysis and predictive modeling.</p>
                 <div class="button">
                     <button class="S-btn">Read...</button>
                 </div>
             </div>
             <div class="card">
-                <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-shield-alt"></i></a></li>
                 <h2>Blockchain Expert</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugit illo ratione, voluptatibus pariatur saepe praesentium facere officia suscipit, possimus a nihil itaque tempore excepturi incidunt nemo nam veniam cupiditate!
-                </p>
+                <p>I provide Blockchain solutions, helping secure digital transactions with cutting-edge technology.</p>
                 <div class="button">
                     <button class="S-btn">Read...</button>
                 </div>
@@ -146,68 +102,59 @@
         </div>
     </div>
 
-    <!-- Projct Section -->
-
+    <!-- Project Section -->
     <div class="project" id="project">
-        <h3>Letest Project For Begginer</h3>
+        <h3>Latest Projects</h3>
         <div class="main-project">
             <div class="project">
-                <img src="Project (1).jpg"  alt="" />
+                <img src="Project (1).jpg" alt="" />
                 <div class="using">
                     <div class="sanjay"><h2>HTML</h2></div>
-                    <div class="sanjay"><h2>CSs</h2></div>
+                    <div class="sanjay"><h2>CSS</h2></div>
                     <div class="sanjay"><h2>JavaScript</h2></div>
                 </div>
                 <div class="button">
-                    <button class="P-btn">About..</button>
+                    <button class="P-btn">About...</button>
                 </div>
             </div>
-        
             <div class="project">
-                <img src="Project (3).jpg"  alt="" />
+                <img src="Project (3).jpg" alt="" />
                 <div class="using">
                     <div class="sanjay"><h2>HTML</h2></div>
-                    <div class="sanjay"><h2>CSs</h2></div>
+                    <div class="sanjay"><h2>CSS</h2></div>
                     <div class="sanjay"><h2>JavaScript</h2></div>
                 </div>
                 <div class="button">
-                    <button class="P-btn">About..</button>
+                    <button class="P-btn">About...</button>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <!-- Awards Section -->
     <div class="project" id="project">
-        <h3>Award and Certificates</h3>
+        <h3>Awards and Certificates</h3>
         <div class="main-project">
             <div class="project">
-                <img src="hacker_rank.png"  alt="" />
+                <img src="hacker_rank.png" alt="" />
                 <div class="using">
                     <div class="sanjay"><h2>HackerRank</h2></div>
-                    
                 </div>
                 <div class="button">
-                    <button class="P-btn">About..</button>
+                    <button class="P-btn">About...</button>
                 </div>
             </div>
-        
             <div class="project">
-                <img src="code_rush.png"  alt="" />
-                <div class="using">
-                    
-                </div>
+                <img src="code_rush.png" alt="" />
                 <div class="button">
-                    <button class="P-btn">About..</button>
+                    <button class="P-btn">About...</button>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Contact Section -->
-
-
     <div class="contact" id="contact">
-        
         <div class="main-form">
             <div class="left">
                 <form>
@@ -221,51 +168,41 @@
                     <input type="password" class="chauhan" placeholder="User-password" />
                     <div class="icon"><i class="fa-solid fa-lock"></i></div>
                     <br/>
-                    <textarea placeholder="Write Massage" class="text"></textarea><br/>
-                    <button  value="submit">Send Massge</button>
-                 </form>
+                    <textarea placeholder="Write a Message" class="text"></textarea><br/>
+                    <button value="submit">Send Message</button>
+                </form>
             </div>
             <div class="right">
-                <img src="" alt="" />
+                <img src="contact-image.jpg" alt="" />
             </div>
         </div>
     </div>
 
-<!-- Footer Section -->
-<div class="footer">
-    <div class="main-footer">
-        <h1>Contact Us</h1>
-        <h3>Email: bscs22060@itu.edu.pk</h3>
-        <h3>Phone: +92 3085829927</h3>
-        <h3>Address: Multan</h3>
-    </div>
-    <div class="main-footer">
-        <h1>Quick Links</h1>
-        <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Services</h3>
-    </div>
-    <div class="main-footer">
-        <h1>Follow Us</h1>
-        <div class="social-media">
-            <li><a href="https://github.com/MSJUJ" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/muhammad-saad-5315a6266/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="main-footer">
+            <h1>Contact Us</h1>
+            <h3 id="email">Loading...</h3>
+            <h3 id="phone">Loading...</h3>
+            <h3 id="address">Loading...</h3>
         </div>
-        <!-- Add language switcher here -->
-        <div class="language-switcher">
-            <select name="language" id="language-select">
-                <option value="en">English</option>
-                <option value="ur">اردو</option>
-            </select>
+        <div class="main-footer">
+            <h1>Quick Links</h1>
+            <h3><a href="#">Home</a></h3>
+            <h3><a href="#about">About</a></h3>
+            <h3><a href="#service">Services</a></h3>
+        </div>
+        <div class="main-footer">
+            <h1>Follow Us</h1>
+            <div class="social-media" id="footerSocialMediaLinks">
+                <!-- Social media links will be populated here -->
+            </div>
         </div>
     </div>
-</div>
 
-
-
-   
+    <div class="copyright-owner">
+        <h3>@2024 Muhammad Saad. All Rights Reserved</h3>
+    </div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>

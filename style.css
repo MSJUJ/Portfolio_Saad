@@ -589,23 +589,7 @@ html{
     font-weight: bold;
 }
 /* Style the language switcher dropdown in the footer */
-.footer .language-switcher {
-    margin-top: 20px;
-}
 
-.language-switcher select {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #f0f0f0;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    color: #333;
-}
-
-.footer .language-switcher select:hover {
-    background-color: #ddd;
-}
 
 .copyright-owner {
     background: #000;
